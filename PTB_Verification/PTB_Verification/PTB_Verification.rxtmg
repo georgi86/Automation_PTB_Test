@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="7.0">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="PTB_Verification"
+      id="f19c8a3e-95c3-4184-8e7e-2ea5ebe79408"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="PTB_Verification"
+      id="f19c8a3e-95c3-4184-8e7e-2ea5ebe79408"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

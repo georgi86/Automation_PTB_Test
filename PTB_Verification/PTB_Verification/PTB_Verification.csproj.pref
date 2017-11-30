@@ -1,0 +1,18 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="Verification.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="PTB_Verification.rxtst" />
+    <Element value="ExcelAction.rxrec" />
+    <Element value="MXAction.rxrec" />
+    <Element value="Verification.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>

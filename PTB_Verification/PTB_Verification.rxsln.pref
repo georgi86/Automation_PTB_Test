@@ -1,0 +1,14 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{F3C71057-6B4E-4EC7-83F8-AC167A8DC4C9}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>9489782e-26f0-457e-a1ec-ae4ff3aec1b3</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution PTB_Verification[PTB_Verification[]]]&#xD;&#xA;Solution PTB_Verification\PTB_Verification\Verification.rxrec&#xD;&#xA;Solution PTB_Verification" />
+  <StartupProject value="{F3C71057-6B4E-4EC7-83F8-AC167A8DC4C9}" />
+</Properties>

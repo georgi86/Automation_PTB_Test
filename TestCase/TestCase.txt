@@ -1,0 +1,9 @@
+This automation test covers some matemathics calculations and the results are validate through Ranorex Studio.
+
+We have a Test Suite which contains a test case with some separated recording modules.
+
+The main module's name is MXAction. 
+The second module's name is ExcelAction
+The last recording module is caled Validation. Inside we have validate only one cellM4 to verify if the values are zero(0.0000000000)
+
+
