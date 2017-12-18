@@ -1,2 +1,0 @@
-D:\Joro\GIT_Automation_MX\Automation_PTB\PTB_Verification\PTB_Verification\bin\Debug\PTB_Verification.exe.config
-D:\Joro\GIT_Automation_MX\PTB_Verification\PTB_Verification\bin\Debug\PTB_Verification.exe.config
