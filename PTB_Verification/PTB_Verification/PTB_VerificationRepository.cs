@@ -580,6 +580,7 @@ namespace PTB_Verification
             static public RepoItemInfo _cellb4Info;
             static public RepoItemInfo _d218Info;
             static public RepoItemInfo _cellm4Info;
+            private object repo;
 
             /// <summary>
             /// Creates a new ExcelPTBResultsTable  folder.
@@ -591,9 +592,11 @@ namespace PTB_Verification
                 _filenamefieldforresults_txtInfo = new RepoItemInfo(this, "FileNameFieldForResults_txt", "combobox[@controlid='1148']", 2000, null, "3e5bbd46-b9aa-45bc-9b8c-aab30cbc7331");
                 _nextInfo = new RepoItemInfo(this, "Next", "button[@accessiblename='Next >']", 1000, null, "fdde601f-1c25-40ab-94bb-a0647864b191");
                 _finishInfo = new RepoItemInfo(this, "Finish", "button[@accessiblename='Finish']", 1000, null, "f78acae7-1916-41fa-ba5b-cea64448f532");
-                _cellb4Info = new RepoItemInfo(this, "CellB4", ".//table[@name='5.2.112 (2)']/row[@index='4']/cell[@address='B4']", 30000, null, "3d3f27aa-5aeb-422f-926b-e037164b164e");
-                _d218Info = new RepoItemInfo(this, "D218", ".//table[@name='5.2.112 (2)']/row[@index='218']/cell[@address='D218']", 30000, null, "c06a7e2e-8a6f-4430-87ec-47d8ffd01851");
-                _cellm4Info = new RepoItemInfo(this, "CellM4", ".//table[@name='5.2.111']/row[@index='4']/cell[@address='M4']", 30000, null, "445b9093-3bf0-4392-a23c-a9e20bdbb832");
+                
+     
+                //_cellb4Info = new RepoItemInfo(this, "CellB4", ".//table[@name='5.2.112 (2)']/row[@index='4']/cell[@address='B4']", 30000, null, "3d3f27aa-5aeb-422f-926b-e037164b164e");
+                //_d218Info = new RepoItemInfo(this, "D218", ".//table[@name='5.2.112 (2)']/row[@index='218']/cell[@address='D218']", 30000, null, "c06a7e2e-8a6f-4430-87ec-47d8ffd01851");
+                
             }
 
             /// <summary>

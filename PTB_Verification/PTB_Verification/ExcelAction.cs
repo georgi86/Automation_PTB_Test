@@ -275,7 +275,11 @@ namespace PTB_Verification
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LControlKey down}{Vkey}{LControlKey up}'.", new RecordItemIndex(32));
             Keyboard.Press("{LControlKey down}{Vkey}{LControlKey up}");
             Delay.Milliseconds(200);
+
             
+            ExcelPTBResultsTableAppFolder._cellm4Info = new RepoItemInfo(repo.ExcelPTBResultsTable, "CellM4", ".//table[@name='" + MXAction.versionMXglobal + "']/row[@index='4']/cell[@address='M4']", 30000, null);
+
+
         }
 
 #region Image Feature Data
