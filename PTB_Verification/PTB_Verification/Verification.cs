@@ -81,14 +81,44 @@ namespace PTB_Verification
             Delay.SpeedFactor = 1.00;
 
             Init();
-                       
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='0.0000000000') on item 'ExcelPTBResultsTable.CellM4'.", repo.ExcelPTBResultsTable.CellM4Info, new RecordItemIndex(0));
-            Validate.Attribute(repo.ExcelPTBResultsTable.CellM4Info, "Text", "0.0000000000");
-            Delay.Milliseconds(100);
 
-            
 
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LControlKey down}{Skey}{LControlKey up}'.", new RecordItemIndex(1));
+            Keyboard.Press("{LControlKey down}{Skey}{LControlKey up}");
+            Delay.Milliseconds(500);
+
+
+
+            try
+            {
+                Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='0.0000000000') on item 'ExcelPTBResultsTable.CellM4'.", repo.ExcelPTBResultsTable.CellM4Info, new RecordItemIndex(0));
+                Validate.Attribute(repo.ExcelPTBResultsTable.CellM4Info, "Text", "0.0000000000");
+
+
+                Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'MicrosoftExcelPTBResultsXlsComp'.", repo.ExcelPTBResultsTable.SelfInfo, new RecordItemIndex(1));
+                Host.Current.CloseApplication(repo.ExcelPTBResultsTable.Self, new Duration(0));
+                Delay.Milliseconds(0);
+            }
+            catch
+            {
+                Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'MicrosoftExcelPTBResultsXlsComp'.", repo.ExcelPTBResultsTable.SelfInfo, new RecordItemIndex(1));
+                Host.Current.CloseApplication(repo.ExcelPTBResultsTable.Self, new Duration(0));
+                Delay.Milliseconds(0);
+
+                throw;
+            }
             
+            
+           
+
+
+
+     
+
+
+
+
+
 
 
 
