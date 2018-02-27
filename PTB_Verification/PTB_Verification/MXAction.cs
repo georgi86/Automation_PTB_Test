@@ -199,7 +199,7 @@ namespace PTB_Verification
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SystemExit.ExitButtonOK' at 35;11.", repo.SystemExit.ExitButtonOKInfo, new RecordItemIndex(24));
             repo.SystemExit.ExitButtonOK.Click("35;11");
-            Delay.Milliseconds(2000);
+            Delay.Milliseconds(5000);
             
         }
 
