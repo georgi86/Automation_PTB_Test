@@ -75,9 +75,9 @@ namespace PTB_Verification
         [System.CodeDom.Compiler.GeneratedCode("Ranorex", "7.0")]
         void ITestModule.Run()
         {
-            Mouse.DefaultMoveTime = 500;
-            Keyboard.DefaultKeyPressTime = 200;
-            Delay.SpeedFactor = 1.00;
+            Mouse.DefaultMoveTime = 800;
+            Keyboard.DefaultKeyPressTime = 300;
+            Delay.SpeedFactor = 2.00;
 
             Init();
 
