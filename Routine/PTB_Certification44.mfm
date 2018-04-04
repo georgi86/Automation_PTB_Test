@@ -1,0 +1,479 @@
+MACRO MacroStep
+VERSION 31.26
+BEGIN
+DEFAULT_TOLERANCES
+{
+    0 ;Use?
+    0.003
+    0 ;Use?
+    0.003
+    0 ;Use?
+    0.004
+    0 ;Use?
+    0.004
+    0 ;Use?
+    0.004
+    0 ;Use?
+    0.008
+    0 ;Use?
+    0.006
+    0 ;Use?
+    0.004
+    0 ;Use?
+    -0.004
+    0.004
+    0 ;Use?
+    -0.01
+    0.01
+    0 ;Use?
+    -0.05
+    0.05
+    0 ;Use?
+    -0.004
+    0.004
+    0 ;Use?
+    -0.004
+    0.004
+    0 ;Use?
+    -0.004
+    0.004
+}
+78 ;Command Id
+Initialize User Interface ;Name
+-1 ;Drawing Id
+{
+  78 ;NLS text id
+  7 ;Num children
+  59 ;Command Id
+  Change Measuring Units ;Name
+  -1 ;Drawing Id
+  {
+    1
+    1
+    5
+    5
+    4
+    4
+  }
+  74 ;Command Id
+  Change View Filter ;Name
+  0 ;Drawing Id
+  {
+    64639 ;New Filter
+    64639 ;Old Filter
+    74 ;NLS text id
+    0 ;Num children
+  }
+  80 ;Command Id
+  Change View Options ;Name
+  0 ;Drawing Id
+  {
+    0 ;Show Control Points?
+    1 ;Show Axes?
+    1 ;Highlight Objects?
+    1 ;Highlight Relations?
+    0 ;Show Hidden Objects?
+    0 ;Show Centers?
+    0 ;Show Ruler?
+    0 ;Show Scrollers?
+    1 ;OGPStyle?
+    0 ;Show Widges?
+    1 ;Show Markers?
+    1 ;Show InTolWhiskers?
+    1 ;Display_GDT_Result_only_after_DRF_Eval_Fit?
+    0 ;Show Control Points?
+    1 ;Show Axes?
+    1 ;Highlight Objects?
+    1 ;Highlight Relations?
+    0 ;Show Hidden Objects?
+    0 ;Show Centers?
+    0 ;Show Ruler?
+    0 ;Show Scrollers?
+    1 ;OGPStyle?
+    0 ;Show Widges?
+    1 ;Show Markers?
+    1 ;Show InTolWhiskers?
+    1 ;Display_GDT_Result_only_after_DRF_Eval_Fit?
+  }
+  88 ;Command Id
+  Change DXF Options ;Name
+  -1 ;Drawing Id
+  {
+    1 ;FindRelations
+    1 ;ImportBlocks
+    1 ;ImportLayers
+    0 ;ExportDimensions
+    0 ;ExportHiddenObjects
+    0 ;ExportBlocks
+    0 ;Units
+    14 ;Version
+    4 ;ExportFeatures
+    1 ;FindRelations
+    1 ;ImportBlocks
+    1 ;ImportLayers
+    0 ;ExportDimensions
+    0 ;ExportHiddenObjects
+    0 ;ExportBlocks
+    0 ;Units
+    14 ;Version
+    4 ;ExportFeatures
+  }
+  90 ;Command Id
+  Change Color Options ;Name
+  -1 ;Drawing Id
+  {
+    16777215 ;BackgroundColor
+    Custom ;BackgroundColorName
+    16711680 ;DragColor
+    Custom ;DragColorName
+    16711935 ;SelectionColor
+    Custom ;SelectionColorName
+    16776960 ;HighlightColor
+    Custom ;HighlightColorName
+    65535 ;ActivatedColor
+    Custom ;ActivatedColorName
+    16763080 ;EnvelopesColor
+    Custom ;EnvelopesColorName
+    13172680 ;SoftGageGoDiameterColor
+    Custom ;SoftGageGoDiameterColorName
+    13158655 ;SoftGageNotGoDiameterColor
+    Custom ;SoftGageNotGoDiameterColorName
+    0.95 ;ScaleFit
+    128 ;PrintingTextScale
+    -100 ;MaxValue
+    9 ;ColorIdx
+    -75 ;MaxValue
+    11 ;ColorIdx
+    -15 ;MaxValue
+    10 ;ColorIdx
+    15 ;MaxValue
+    10 ;ColorIdx
+    75 ;MaxValue
+    10 ;ColorIdx
+    100 ;MaxValue
+    11 ;ColorIdx
+    3.40282e+008 ;MaxValue
+    9 ;ColorIdx
+    16777215 ;BackgroundColor
+    Custom ;BackgroundColorName
+    16711680 ;DragColor
+    Custom ;DragColorName
+    16711935 ;SelectionColor
+    Custom ;SelectionColorName
+    16776960 ;HighlightColor
+    Custom ;HighlightColorName
+    65535 ;ActivatedColor
+    Custom ;ActivatedColorName
+    16763080 ;EnvelopesColor
+    Custom ;EnvelopesColorName
+    13172680 ;SoftGageGoDiameterColor
+    Custom ;SoftGageGoDiameterColorName
+    13158655 ;SoftGageNotGoDiameterColor
+    Custom ;SoftGageNotGoDiameterColorName
+    0.95 ;ScaleFit
+    128 ;PrintingTextScale
+    -100 ;MaxValue
+    9 ;ColorIdx
+    -75 ;MaxValue
+    11 ;ColorIdx
+    -15 ;MaxValue
+    10 ;ColorIdx
+    15 ;MaxValue
+    10 ;ColorIdx
+    75 ;MaxValue
+    10 ;ColorIdx
+    100 ;MaxValue
+    11 ;ColorIdx
+    3.40282e+008 ;MaxValue
+    9 ;ColorIdx
+  }
+  87 ;Command Id
+  Change Features Options ;Name
+  -1 ;Drawing Id
+  {
+    1 ;ASME
+    1 ;BindPoints
+    0 ;DatumEvalMethod
+    1 ;ASME
+    1 ;BindPoints
+    0 ;DatumEvalMethod
+  }
+  92 ;Command Id
+  Change Dimensions Options ;Name
+  -1 ;Drawing Id
+  {
+    15 ;ScrSize
+    0.19685 ;RealSize
+    3 ;ArrowHeadType
+    15 ;ScrSize
+    0.19685 ;RealSize
+    3 ;ArrowHeadType
+    4 ;ScrAuxSegExt
+    0.07874 ;RealAuxSegExt
+    2 ;ScrOffsett
+    0.03937 ;RealOffset
+    1 ;ScrTextOffset
+    0.03937 ;RealTextOffset
+    10 ;DoubleArrowLength
+    40 ;DefaultAuxPtDist
+    30 ;MultiMLStepDist
+    16 ;FontHeight
+    0 ;FontWidtht
+    0 ;FontEscapement
+    0 ;FontOrientation
+    0 ;FontBold
+    0 ;FontItalic
+    0 ;FontUnderline
+    0 ;FontStrikeOut
+    Arial ;FontFaceName
+    0 ;TextOverLine
+    0 ;ShowLabels
+    15 ;ScrSize
+    0.19685 ;RealSize
+    3 ;ArrowHeadType
+    15 ;ScrSize
+    0.19685 ;RealSize
+    3 ;ArrowHeadType
+    4 ;ScrAuxSegExt
+    0.07874 ;RealAuxSegExt
+    2 ;ScrOffsett
+    0.03937 ;RealOffset
+    1 ;ScrTextOffset
+    0.03937 ;RealTextOffset
+    10 ;DoubleArrowLength
+    40 ;DefaultAuxPtDist
+    30 ;MultiMLStepDist
+    16 ;FontHeight
+    0 ;FontWidtht
+    0 ;FontEscapement
+    0 ;FontOrientation
+    0 ;FontBold
+    0 ;FontItalic
+    0 ;FontUnderline
+    0 ;FontStrikeOut
+    Arial ;FontFaceName
+    0 ;TextOverLine
+    0 ;ShowLabels
+  }
+  1 ;ASME
+  1 ;BindPoints
+  0 ;DatumEvalMethod
+}
+72 ;Command Id
+Zoom ;Name
+0 ;Drawing Id
+{
+  0.534639 ;New zoom
+  18.032    46.5477    0
+  1 ;Old zoom
+  18.032    46.5477    0
+}
+72 ;Command Id
+Zoom ;Name
+0 ;Drawing Id
+{
+  0.279524 ;New zoom
+  18.032    46.5477    0
+  0.534639 ;Old zoom
+  18.032    46.5477    0
+}
+72 ;Command Id
+Zoom ;Name
+0 ;Drawing Id
+{
+  0.154085 ;New zoom
+  18.032    46.5477    0
+  0.279524 ;Old zoom
+  18.032    46.5477    0
+}
+72 ;Command Id
+Zoom ;Name
+0 ;Drawing Id
+{
+  0.085603 ;New zoom
+  18.032    46.5477    0
+  0.154085 ;Old zoom
+  18.032    46.5477    0
+}
+72 ;Command Id
+Zoom ;Name
+0 ;Drawing Id
+{
+  0.0503964 ;New zoom
+  18.032    46.5477    0
+  0.085603 ;Old zoom
+  18.032    46.5477    0
+}
+72 ;Command Id
+Zoom ;Name
+0 ;Drawing Id
+{
+  0.0310065 ;New zoom
+  18.032    46.5477    0
+  0.0503964 ;Old zoom
+  18.032    46.5477    0
+}
+72 ;Command Id
+Zoom ;Name
+0 ;Drawing Id
+{
+  0.0170128 ;New zoom
+  18.032    46.5477    0
+  0.0310065 ;Old zoom
+  18.032    46.5477    0
+}
+72 ;Command Id
+Zoom ;Name
+0 ;Drawing Id
+{
+  0.010431 ;New zoom
+  18.032    46.5477    0
+  0.0170128 ;Old zoom
+  18.032    46.5477    0
+}
+72 ;Command Id
+Zoom ;Name
+0 ;Drawing Id
+{
+  0.01 ;New zoom
+  18.032    46.5477    0
+  0.010431 ;Old zoom
+  18.032    46.5477    0
+}
+72 ;Command Id
+Zoom ;Name
+0 ;Drawing Id
+{
+  0.015831 ;New zoom
+  18.032    46.5477    0
+  0.01 ;Old zoom
+  18.032    46.5477    0
+}
+72 ;Command Id
+Zoom ;Name
+0 ;Drawing Id
+{
+  0.0297444 ;New zoom
+  18.032    46.5477    0
+  0.015831 ;Old zoom
+  18.032    46.5477    0
+}
+72 ;Command Id
+Zoom ;Name
+0 ;Drawing Id
+{
+  0.0488479 ;New zoom
+  18.032    46.5477    0
+  0.0297444 ;Old zoom
+  18.032    46.5477    0
+}
+72 ;Command Id
+Zoom ;Name
+0 ;Drawing Id
+{
+  0.0971453 ;New zoom
+  18.032    46.5477    0
+  0.0488479 ;Old zoom
+  18.032    46.5477    0
+}
+72 ;Command Id
+Zoom ;Name
+0 ;Drawing Id
+{
+  0.206879 ;New zoom
+  18.032    46.5477    0
+  0.0971453 ;Old zoom
+  18.032    46.5477    0
+}
+72 ;Command Id
+Zoom ;Name
+0 ;Drawing Id
+{
+  0.417836 ;New zoom
+  18.032    46.5477    0
+  0.206879 ;Old zoom
+  18.032    46.5477    0
+}
+72 ;Command Id
+Zoom ;Name
+0 ;Drawing Id
+{
+  0.74622 ;New zoom
+  18.032    46.5477    0
+  0.417836 ;Old zoom
+  18.032    46.5477    0
+}
+72 ;Command Id
+Zoom ;Name
+0 ;Drawing Id
+{
+  1.47983 ;New zoom
+  18.032    46.5477    0
+  0.74622 ;Old zoom
+  18.032    46.5477    0
+}
+72 ;Command Id
+Zoom ;Name
+0 ;Drawing Id
+{
+  3.03469 ;New zoom
+  18.032    46.5477    0
+  1.47983 ;Old zoom
+  18.032    46.5477    0
+}
+72 ;Command Id
+Zoom ;Name
+0 ;Drawing Id
+{
+  5.30857 ;New zoom
+  18.032    46.5477    0
+  3.03469 ;Old zoom
+  18.032    46.5477    0
+}
+72 ;Command Id
+Zoom ;Name
+0 ;Drawing Id
+{
+  9.27131 ;New zoom
+  18.032    46.5477    0
+  5.30857 ;Old zoom
+  18.032    46.5477    0
+}
+72 ;Command Id
+Zoom ;Name
+0 ;Drawing Id
+{
+  14.0767 ;New zoom
+  18.032    46.5477    0
+  9.27131 ;Old zoom
+  18.032    46.5477    0
+}
+72 ;Command Id
+Zoom ;Name
+0 ;Drawing Id
+{
+  27.0828 ;New zoom
+  18.032    46.5477    0
+  14.0767 ;Old zoom
+  18.032    46.5477    0
+}
+72 ;Command Id
+Zoom ;Name
+0 ;Drawing Id
+{
+  46.7655 ;New zoom
+  18.032    46.5477    0
+  27.0828 ;Old zoom
+  18.032    46.5477    0
+}
+72 ;Command Id
+Zoom ;Name
+0 ;Drawing Id
+{
+  24.0955 ;New zoom
+  18.032    46.5477    0
+  46.7655 ;Old zoom
+  18.032    46.5477    0
+}
+END
+

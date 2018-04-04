@@ -1,0 +1,217 @@
+
+line b1
+point: centroid        38.73366       -278.74823        873.51758
+direction cosines       0.3642523351     0.9312998006    -0.0009580362
+
+line b2
+point: centroid       949.69512      -1905.07119        138.49545
+direction cosines      -0.2218126452     0.2122487546     0.9517087877
+
+line b3
+point: centroid      -481.90977         53.09543        -30.39071
+direction cosines       0.1467520602     0.8631662541     0.4831230182
+
+line b4
+point: centroid       836.23364       1159.61203        107.71513
+direction cosines      -0.2426716675    -0.7500372836     0.6152678563
+
+plane b5
+point: centroid       873.37109       -470.15147        -23.06385
+direction cosines       0.9999876615     0.0022052173     0.0044512873
+
+plane b6
+point: centroid       564.22596        322.13400       -582.61482
+direction cosines       0.0049761769    -0.9999730741     0.0053933884
+
+plane b7
+point: centroid        16.03376        107.77297          2.02606
+direction cosines      -0.2945332435     0.7363364323     0.6091459816
+
+plane b8
+point: centroid      2180.19185       1173.04035        704.95205
+direction cosines       0.0805712316     0.0925390555     0.9924438522
+
+circle b9
+point: centre           1.72970       2075.91359        993.70737
+direction cosines      -0.0000659417     0.0000557676     0.9999999963
+radius                 82.07636
+
+circle b10
+point: centre          -2.08963          2.33103          0.85021
+direction cosines      -0.9571480368     0.2739736927    -0.0938405634
+radius                154.41918
+
+circle b11
+point: centre        1044.39447       -786.89524        -21.36060
+direction cosines      -0.5676398602    -0.3972334387     0.7211037265
+radius                212.79612
+
+circle b12
+point: centre       -1608.98139        741.26187       -453.97577
+direction cosines       0.4532722837     0.6474881842     0.6126200194
+radius                148.72892
+
+circle b13
+point: centre       -1428.73731        883.46451        -45.91010
+direction cosines      -0.9998773039    -0.0018605142    -0.0155536398
+radius                349.50950
+
+circle b14
+point: centre         976.20458      -1011.55519        600.21160
+direction cosines      -0.3234486907     0.8716140124    -0.3683340304
+radius                233.91884
+
+circle b15
+point: centre        -895.83096       -999.28417        158.14490
+direction cosines       0.0018254669    -0.9999979341     0.0008941249
+radius                328.30014
+
+cylinder b16
+point: centroid      1075.41420        337.72939        899.69911
+direction cosines      -0.9998445647     0.0176250938     0.0004499090
+radius                143.73822
+
+cylinder b17
+point: centroid      -545.87979        821.63218         21.85653
+direction cosines      -0.3512590172     0.5338062817     0.7691995557
+radius                352.14754
+
+cylinder b18
+point: centroid      1492.20641         46.03110       -162.78273
+direction cosines      -0.6771266532     0.2792585402    -0.6808187448
+radius                 16.26889
+
+cylinder b19
+point: centroid      -996.54165        428.68589        613.65332
+direction cosines       0.0005162488    -0.0004063536     0.9999997842
+radius                 47.92703
+
+cylinder b20
+point: centroid       863.09601        335.50554       -101.24310
+direction cosines       0.5948648850     0.7435322835     0.3054431406
+radius                 82.25590
+
+cylinder b21
+point: centroid      -964.61546      -1645.14449        451.77754
+direction cosines       0.0010590700     0.8710587714    -0.4911776615
+radius                166.35284
+
+cylinder b22
+point: centroid       969.98846        594.60465        536.11370
+direction cosines       0.4261787191     0.3327928416     0.8412018925
+radius                102.24169
+
+cylinder b23
+point: centroid       -50.14145       -724.45085        -23.07777
+direction cosines      -0.9262296637    -0.3241657602     0.1923932691
+radius                284.01498
+
+cylinder b24
+point: centroid        24.39979        163.98236          1.10631
+direction cosines       0.9999993809    -0.0011053005    -0.0001285499
+radius                209.97342
+
+cylinder b25
+point: centroid      1613.95636       -898.06514        -23.26368
+direction cosines       0.0937106382    -0.3746806630     0.9224059394
+radius                 17.11116
+
+cone b26
+point: centroid      -357.04643        189.98942        985.29620
+direction cosines       0.4839473774    -0.3387587584    -0.8068689110
+apex angle              6.02552
+radius                238.60647
+
+cone b27
+point: centroid       706.27305       -889.58579       -500.21845
+direction cosines      -0.5544331185     0.7363998368     0.3877101978
+apex angle             81.71313
+radius                276.43727
+
+cone b28
+point: centroid      1250.66601       -332.89379        -35.30107
+direction cosines      -0.9080427885     0.2724050159    -0.3182040251
+apex angle              6.00012
+radius                 34.64519
+
+cone b29
+point: centroid       366.89782       -450.02103       -125.63827
+direction cosines       0.6027811685     0.1808143886    -0.7771492905
+apex angle              6.00524
+radius                 34.57811
+
+cone b30
+point: centroid      -172.70510       -647.20794        275.85584
+direction cosines       0.3807016715     0.1211903177    -0.9167219558
+apex angle             20.06289
+radius                113.22601
+
+cone b31
+point: centroid      -610.44238        -95.46020       -242.33625
+direction cosines      -0.9999985946    -0.0003415390    -0.0016413889
+apex angle             79.76059
+radius                120.10483
+
+cone b32
+point: centroid      1022.98570        343.17800         65.08444
+direction cosines      -0.3636975890    -0.9092845112     0.2023011158
+apex angle             10.00069
+radius                 49.12951
+
+cone b33
+point: centroid      -151.62435        -45.23951        -26.12613
+direction cosines       0.7767554804    -0.3294493753    -0.5367625478
+apex angle             39.89682
+radius                186.77324
+
+cone b34
+point: centroid      1090.89005        716.72368       -266.26520
+direction cosines      -0.7840014377    -0.5524838154     0.2830254041
+apex angle             23.51187
+radius                 61.84492
+
+cone b35
+point: centroid      -898.78718      -1094.30812        437.75011
+direction cosines       0.0007650222    -0.9999996631     0.0002977012
+apex angle             40.02289
+radius                 65.61281
+
+cone b36
+point: centroid       -54.82142        500.89870         13.82908
+direction cosines       0.0111907717    -0.0048785186    -0.9999254806
+apex angle             10.04047
+radius                 26.08382
+
+cone b37
+point: centroid       354.25477       -409.19018         49.57645
+direction cosines       0.7076077600    -0.7050122443     0.0474235542
+apex angle            174.09198
+radius                118.97486
+
+sphere b38
+point: centre         378.16266        667.18113        129.85274
+radius                 52.35933
+
+sphere b39
+point: centre        -606.51763        -53.01011        113.89580
+radius                 75.42111
+
+sphere b40
+point: centre         105.09103         61.20524         -9.34639
+radius                 97.08967
+
+sphere b41
+point: centre         988.22894        -88.83971       -151.15665
+radius                 52.36497
+
+sphere b42
+point: centre          59.95627       -217.67704        -90.00975
+radius                 96.16660
+
+sphere b43
+point: centre        -781.76009        430.27071        103.24110
+radius                 74.91617
+
+sphere b44
+point: centre         -39.10693          6.23775          9.26435
+radius                 74.88787
